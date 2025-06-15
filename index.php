@@ -56,7 +56,7 @@
         <h1>Sistem Absensi QR Code</h1>
         <div class="button-group">
             <a href="public/login.php" class="btn btn-siswa">Login sebagai Siswa</a>
-            <a href="public/login_admin.php" class="btn btn-admin">Login sebagai Admin</a>
+            <a href="public/login_admin.php'' class="btn btn-admin">Login sebagai Admin</a>
         </div>
     </div>
 </body>
