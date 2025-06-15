@@ -1,10 +1,10 @@
-# Proyek Keren Saya
+# Berikut Tangkapan Layar Dari Projek ini
 
-Ini adalah deskripsi singkat tentang proyek saya.
+Ini adalah ScreeenShoot tentang proyek saya.
 
 ### Screenshot
 ![Halaman Utama Aplikasi](Screenshot(365).png)
 
-### Diagram Alir
+### ScreenShoot
 proses utama:
 ![Proses](Screenshot(368).png)
