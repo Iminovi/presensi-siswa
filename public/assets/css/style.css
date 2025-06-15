@@ -1,0 +1,116 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+/* Admin Page */
+#qrcode {
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+#qrcode img {
+    border-radius: 4px;
+}
+.timer-container {
+    font-size: 1.2rem;
+    color: #d9534f;
+}
+
+/* Login & Scan Page */
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Scan Page Specific */
+#qr-reader {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    margin: 1rem auto;
+}
+.result {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.result.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+.result.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.sidebar .logout-section {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.sidebar .logout-btn {
+    display: block;
+    background-color: #c0392b;
+    color: white !important;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.sidebar .logout-btn:hover {
+    background-color: #e74c3c;
+}
+

@@ -1,0 +1,26 @@
+/* Tambahkan ini ke admin_style.css jika belum ada */
+span.status { padding: 5px 10px; border-radius: 15px; color: white; font-size: 0.9em; }
+.status.tepat-waktu { background-color: #2ecc71; }
+.status.terlambat { background-color: #e74c3c; }
+.status.pulang { background-color: #3498db; }
+
+.sidebar .logout-section {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.sidebar .logout-btn {
+    display: block;
+    background-color: #c0392b;
+    color: white !important;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.sidebar .logout-btn:hover {
+    background-color: #e74c3c;
+}
+
