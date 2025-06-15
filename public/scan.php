@@ -8,7 +8,7 @@ $type = $_GET['type'] ?? 'masuk';
 
 // Jika tidak ada sesi NIS, paksa kembali ke halaman login
 if (empty($nis)) {
-    header('Location: login.php');
+    header('Location;'' login.php');
     exit();
 }
 
